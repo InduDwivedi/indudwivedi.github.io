@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ad918cd8d3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!--navigation bar-->
+    <div class="container-fluid">
+        <div class="d-flex">
+            <nav class="navbar fixed-top navbar-expand-sm justify-content-center" style="background-color:#d4f794;">
+                <button 
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    class="navbar-toggler"
+                    aria-controls="navbarNav"
+                    aria-toggle="false"
+                    aria-lable="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav"> 
+                        <button>
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link active">
+                                    Home
+                                </a>
+                            </li>
+                        </button>
+                        <button>
+                            <li class="nav-item active">
+                                <a href="projects.html" class="nav-link active">
+                                    Projects
+                                </a>
+                            </li>
+                        </button>
+                        <button>
+                            <li class="nav-item active">
+                                <a href="contact.html" class="nav-link active">
+                                    Contact
+                                </a>
+                            </li>
+                        </button>
+                        <button>
+                            <li class="nav-item active">
+                                <a href="publications.html" class="nav-link active">
+                                    Publications
+                                </a>
+                            </li>
+                        </button>
+                        <button>
+                            <li class="nav-item active">
+                                <a href="personal.html" class="nav-link active">
+                                    Personal
+                                </a>
+                            </li>
+                        </button>
+                        
+                        <button>
+                            <li class="nav-item active">
+                                
+                                    <a href="https://drive.google.com/file/d/1FcZjUP5xjgkU2_fPsLHvsF_cd3ZPZ-ht/view?usp=sharing" class="nav-link active">
+                                        Resume
+                                    </a>
+                                </div>
+                            </li>
+                        </button>
+                    </ul>
+                </div>
+                <!--Search bar//optional-->
+                <!-- <form class="d-flex me-3">
+                    <input type="text" class="form-control me2">
+                    <button type="submit" class="btn btn-outline-info" style="background-color: #002255">Search</button>
+    
+                </form> -->
+            </nav>
+        </div>
+   
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <section>
+        <div class="container-fluid mb-5 pt-5">
+            <div class="d-flex">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="container-fluid">
+                                <!--Contact Page-->
+
+                            <section class="p-3">
+                                <div class="container">
+                                    <div class="row align-items-center justify-content-center">
+                                        <div class="col-md-4">
+                                
+                                            <img src="img/contact.svg" class="img-fluid img-thumbnail w-50 h-auto"alt="">
+                                            
+                                        </div>
+                                        <div class="col-md p-5">
+                                            <h4>Indu Dwivedi</h4>
+                                        <h6><br>
+                                                Connect with me!
+                                            </h6>
+                                            <p>
+                                                <li>Email:<a href='mailto:indudwiv@buffalo.edu'> indudwiv@buffalo.edu</a></li>
+                                                <li>Secondary email: <a href='mailto:indudwivedi00@gmail.com'> indudwivedi00@gmail.com</a>
+                                                </li>
+                                                <li>LinkedIn <a href='https://www.linkedin.com/in/indudwivedi/'> indudwivedi </a></li>
+                                                <li>GitHub <a href='https://github.com/InduDwivedi/'> indudwivedi </a></li>
+                                                <li>Twitter <a href='https://twitter.com/indudwiv'> indudwiv </a></li>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                                <!-- Contact form -->
+                                <section class="p-5" style="background-color: #D2DAFF;">
+                                    <div class="container mt-5 mb-5">
+                                    <h2 id="contactform1" class="text-center mb-4 font_meie_script">Contact me!</h2>
+                                    <form class="row g-3" action="https://formsubmit.co/3bd5e07c3093a176bb8e434230f645fb" method="POST">
+                                        <!--Honeypot-->
+                                        <input type="text" name="_honey" style="display: none;">
+                                        <!-- Disable captacha -->
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_next" value="https://indudwivedi.github.io/InduDwivedi/success.html">
+                                        <div class="col-md-4">
+                                            <label for="firstName" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" name="name" id="firstName" required>
+                                            
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="lastName" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" name ="Last&nbsp;Name" id="lastName" required>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="emailInfo" class="form-label">E-mail</label>
+                                            <input type="email" class="form-control" name="email" id="emailInfo" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="phoneNumber" class="form-label">Phone number</label>
+                                            <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (716) 000-0000">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="comments" class="form-lable">Your message</label>
+                                            <textarea class="form-control" name="comments,&nbsp;questions" id="comments" rows="10" required></textarea>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button type="submit" class="btn btn-info">Submit</button>
+                                        </div>
+                                    </form>
+                                    </div>
+                                </section>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--footer-->
+    <section class="section-footer p-3">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-md-8 mb-4 text-light">
+                   
+                        <p>
+                            <a style="color: #f5f5f4;"> Copyright <i class="fa-regular fa-copyright"></i> 2022 Indu Dwivedi </a> <br>
+                            <a href='mailto:indudwiv@buffalo.edu' style="color: #f5f5f4; text-decoration: none;"> Primary email |</a>
+                                <a href='mailto:indudwivedi00@gmail.com' style="color: #f5f5f4; text-decoration: none;">Secondary email</a>
+                            <br>
+                            <a href="https://github.com/InduDwivedi" style="color: #f5f5f4; text-decoration: none;"> Github </a> 
+                            <a href="https://www.linkedin.com/in/indudwivedi/" style="color: #f5f5f4; text-decoration: none;"> | LinkedIn </a> 
+                            <a href="https://twitter.com/home" style="color: #f5f5f4; text-decoration: none;"> | Twitter </a>
+                            
+                        </p>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
